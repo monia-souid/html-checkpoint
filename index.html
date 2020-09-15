@@ -2,67 +2,77 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="exemple of portfolio" content="developpeur web junior" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My portfolio</title>
   </head>
-
   <body>
     <header>
-      <img src="img/img1.jpg" alt="immagee" width="200" />
-      <nav>
-        <a href="index.html">ACCUEIL</a>
-        <a href="#competences">COMPETENCES</a>
-        <a href="#telephone">CONTACT</a>
-      </nav>
-      <h1>MONIA SOUID</h1>
+      <img src="img/img1.jpg" alt="immagee" width="300" />
+      <div class="menu">
+        <nav>
+          <a href="index.html">ACCUEIL</a>
+          <a href="#competences">COMPETENCES</a>
+          <a href="#telephone">CONTACT</a>
+        </nav>
+      </div>
+
+      <h1 class="big-title">MONIA SOUID</h1>
+      <h3 class="italic-text"><i>Développeur Web Junior</i></h3>
     </header>
-    <br />
     <main>
-      <h3><i>Développeur Web Junior</i></h3>
+      <h1>PRÉSENTATION</h1>
+      <div id="image"><img src="img/img2.jpg" alt="immagee" width="400" /></div>
+      <div>
+        <aside>
+          <p id="competences">
+            Jeune développeur web issu de la formation GOMYCODE, je maîtrise les
+            technologies front-end, notamment Html, Css, et JavaScript je fait
+            aussi du back-end, . Pour la partie gestion de projets, j’ai des
+            connaissances en méthode agile ainsi que l’outil Git pour la gestion
+            de version de projet Je suis à l'écoute d'opportunités en
+            développement de site et application web. Je suis particulièrement
+            intéressée par le développement en langage JavaScript et ses
+            frameworks.
+          </p>
+        </aside>
+      </div>
 
-      <img src="img/img2.jpg" alt="immagee" width="400" />
-      <aside>
-        <p id="competences">
-          Jeune développeur web issu de la formation GOMYCODE, je maîtrise les
-          technologies front-end, notamment Html, Css, et JavaScript je fait
-          aussi du back-end, . Pour la partie gestion de projets, j’ai des
-          connaissances en méthode agile ainsi que l’outil Git pour la gestion
-          de version de projet Je suis à l'écoute d'opportunités en
-          développement de site et application web. Je suis particulièrement
-          intéressée par le développement en langage JavaScript et ses
-          frameworks.
-        </p>
-      </aside>
-
-      <h3 id="telephone">COORDONNÉES</h3>
+      <h1 id="telephone">COORDONNÉES</h1>
       <ul type="square">
-      <li>+216 58418000</li>
-      
-      <li>monia.souid@gmail.com</li>
+        <li>+216 58418000</li>
+
+        <li>monia.souid@gmail.com</li>
       </ul>
       <form>
-        <div>
-          <label>First Name:</label>
-          <input type="text" name="firstName" />
-        </div>
-        <div>
-          <label>Last Name:</label>
-          <input type="text" name="lastName" id="lastName" />
-        </div>
+        <div class="input">
+          <div>
+            <label>First Name:</label>
+            <input type="text" name="firstName" />
+          </div>
+          <div>
+            <label>Last Name:</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
 
-        <div>
-          <label>Contact:</label>
-          <input type="number" name="contact" id="contact" />
+          <div>
+            <label>Contact:</label>
+            <input type="number" name="contact" id="contact" />
+          </div>
+          <div><label>Mail:</label> <input type="email" name="mail" /></div>
+
+          <div>
+            <label>Message:</label>
+            <input id="message" type="text" name="Message" />
+          </div>
+          <br />
         </div>
-        <div><label>Mail:</label> <input type="email" name="mail" /></div>
-
-        <div><label>Message:</label> <input type="text" name="Message" /></div>
-
         <button>ENVOYER MESSAGE</button>
         <br />
       </form>
       <iframe
+        id="video"
         width="460"
         height="215"
         src="https://www.youtube.com/embed/H6Dr7l8rUTc"
@@ -73,7 +83,9 @@
 
       <!-- This button will submit the form, causing the page to redirect -->
     </main>
-    <footer>Copyright © 2020 Monia SOUID</footer>
+    <footer>
+      <p id="pied-page">Copyright © 2020 Monia SOUID</p>
+    </footer>
 
     <!-- this is a comment -->
   </body>

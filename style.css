@@ -1,0 +1,68 @@
+.big-title {
+  color: rgb(222, 214, 233);
+  font-size: 50px;
+  text-align: center;
+}
+.menu {
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 100;
+ /* color:white;*/
+}
+.italic-text {
+  color: rgb(245, 173, 209);
+  font-size: 30px;
+  text-align: center;
+}
+#competences {
+  font-size: 20px;
+  text-align: justify;
+  display: inline;
+}
+main {
+  background-color: rgb(210, 230, 247);
+  margin-top:-30px;
+}
+#image {
+  margin-right: 0;
+}
+header {
+    color:black;
+    background-color:white;
+    background-image:url(img/img1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+    }
+    button{
+        padding: 10px 15px;
+        margin-left: 100px;
+        border-radius: 8px;
+        box-shadow: 5px 1px 10px 3px rgb(0, 0, 10);
+        cursor: pointer;
+    }
+    button:hover{
+        font-weight: bolder ;
+    }
+    input{
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px 0px 10px 10px;
+    }
+    .input{
+        padding: 30px;
+    }
+    #video{
+     margin: 50px 0px 50px 30px;
+    }
+    footer{
+      background-color: rgb(71, 69, 82);
+     padding: 20px;
+    }
+    #pied-page{
+      color: blanchedalmond;
+      font-weight: bold;
+      text-align: center;
+    }
